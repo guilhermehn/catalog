@@ -4,8 +4,12 @@
 [![GoDoc](https://godoc.org/github.com/guilhermehn/catalog?status.svg)](http://godoc.org/github.com/guilhermehn/catalog)
 
 ## Install
-~~~
+~~~ bash
 go get github.com/guilhermehn/catalog
+~~~
+Or with [gopkg](http://labix.org/gopkg.in)
+~~~ bash
+go get gopkg.in/guilhermehn/catalog.v1
 ~~~
 
 ## Usage
@@ -33,6 +37,8 @@ package main
 import (
   "fmt"
   "github.com/guilhermehn/catalog"
+  // or if you installed the gopkg version
+  // "gopkg.in/guilhermehn/catalog.v1"
 )
 
 func main() {
