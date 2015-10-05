@@ -1,6 +1,8 @@
 # Catalog
 > Walk through the given directory and returns all files within it
 
+[![GoDoc](https://godoc.org/github.com/guilhermehn/catalog?status.svg)](http://godoc.org/github.com/guilhermehn/catalog)
+
 ## Install
 ~~~
 go get github.com/guilhermehn/catalog
